@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '6.1.7.9'
 
 group :production do
   gem "pg", '~>0.13.2'
@@ -31,7 +31,7 @@ gem 'wiselinks', '0.1.1', :path => "vendor/gems/wiselinks-0.1.1"
 
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  gem 'sass-rails', '~> 6.0.0'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'bootstrap-sass', '~> 2.1.0.0'
   gem 'font-awesome-sass-rails', '~> 2.0.0.0'
