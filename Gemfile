@@ -17,7 +17,7 @@ gem 'role-rails'
 gem 'will_paginate'
 gem 'will_paginate-bootstrap', '~> 0.2.1'
 
-gem 'nokogiri'
+gem 'nokogiri', '>= 1.15.7'
 gem 'squeel'
 
 gem 'formtastic', '~> 2.1.1'
