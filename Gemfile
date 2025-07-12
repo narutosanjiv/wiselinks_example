@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '7.1.0'
 
 group :production do
   gem "pg", '~>0.13.2'
@@ -11,16 +11,16 @@ group :development, :test do
 end
 
 gem 'slim'
-gem 'jquery-rails'
-gem 'role-rails'
+gem 'jquery-rails', '>= 4.0.1', '>= 4.0.1'
+gem 'role-rails', '>= 1.4.0'
 
 gem 'will_paginate'
-gem 'will_paginate-bootstrap', '~> 0.2.1'
+gem 'will_paginate-bootstrap', '~> 0.2.2'
 
 gem 'nokogiri'
-gem 'squeel'
+gem 'squeel', '>= 1.1.0'
 
-gem 'formtastic', '~> 2.1.1'
+gem 'formtastic', '~> 2.2.0'
 gem 'formtastic-bootstrap', '~> 1.1.2',
     :git => 'git://github.com/cgunther/formtastic-bootstrap.git',
     :branch => 'bootstrap2-rails3-2-formtastic-2-1'
@@ -32,9 +32,9 @@ gem 'wiselinks', '0.1.1', :path => "vendor/gems/wiselinks-0.1.1"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'coffee-rails', '~> 4.2.2'
   gem 'bootstrap-sass', '~> 2.1.0.0'
-  gem 'font-awesome-sass-rails', '~> 2.0.0.0'
+  gem 'font-awesome-sass-rails', '~> 3.0.0.0'
   
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
