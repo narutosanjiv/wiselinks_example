@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '3.2.10'
 
 group :production do
   gem "pg", '~>0.13.2'
@@ -11,8 +11,8 @@ group :development, :test do
 end
 
 gem 'slim'
-gem 'jquery-rails'
-gem 'role-rails'
+gem 'jquery-rails', '>= 2.2.0', '>= 2.2.0'
+gem 'role-rails', '>= 1.4.0'
 
 gem 'will_paginate'
 gem 'will_paginate-bootstrap', '~> 0.2.1'
@@ -31,10 +31,10 @@ gem 'wiselinks', '0.1.1', :path => "vendor/gems/wiselinks-0.1.1"
 
 
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails', '~> 3.2.6'
+  gem 'coffee-rails', '~> 4.0.0'
   gem 'bootstrap-sass', '~> 2.1.0.0'
-  gem 'font-awesome-sass-rails', '~> 2.0.0.0'
+  gem 'font-awesome-sass-rails', '~> 3.0.0.0'
   
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
