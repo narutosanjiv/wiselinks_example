@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.9'
+gem 'rails', '7.1.5.2'
 
 group :production do
   gem "pg", '~>0.13.2'
@@ -12,13 +12,13 @@ end
 
 gem 'slim'
 gem 'jquery-rails'
-gem 'role-rails'
+gem 'role-rails', '>= 1.4.0'
 
 gem 'will_paginate'
 gem 'will_paginate-bootstrap', '~> 0.2.1'
 
 gem 'nokogiri'
-gem 'squeel'
+gem 'squeel', '>= 1.1.0'
 
 gem 'formtastic', '~> 2.1.1'
 gem 'formtastic-bootstrap', '~> 1.1.2',
